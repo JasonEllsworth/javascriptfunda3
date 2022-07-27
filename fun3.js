@@ -10,8 +10,21 @@ function number(num) {
 
 // converts letters to upper case
 
+//let uncapital = 'why'
+//let capital = uncapital.charAt(0).toUpperCase() + uncapital.slice(1);
+
 function capital(word) {
-   let capitalized = word[0].toUpperCase();
-   return capitalized;
-   
+    let w = word
+    let toBecapital = w.charAt(0).toUpperCase();
+    let toBeUndercase = w.slice(1).toLowerCase();
+    return word = toBecapital + toBeUndercase;
+
+    
 }
+
+capital('why')
+capital('fUcK YoUr MuM')
+
+
+
+
